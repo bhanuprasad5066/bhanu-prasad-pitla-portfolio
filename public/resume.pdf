@@ -1,0 +1,118 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4121 >>
+stream
+BT /F2 20 Tf 54 738 Td (Bhanu Prasad Pitla) Tj ET
+BT /F2 11 Tf 54 722 Td (AI Engineer | Software Engineer | Python Developer) Tj ET
+BT /F1 9.5 Tf 54 708 Td (Hyderabad, Telangana, India  |  bhanubhanu62818@gmail.com) Tj ET
+BT /F1 9.5 Tf 54 694 Td (github.com/bhanuprasad5066  |  linkedin.com/in/bhanu-prasad-506b566p) Tj ET
+BT /F2 10.5 Tf 54 672 Td (SUMMARY) Tj ET
+0.8 w 54 662 m 558 662 l S
+BT /F1 10 Tf 54 652 Td (I'm an AI and Software Engineer passionate about building intelligent applications, scalable backend) Tj ET
+BT /F1 10 Tf 54 638 Td (systems, and modern full-stack solutions.) Tj ET
+BT /F1 10 Tf 54 624 Td (I specialize in Python, Django, FastAPI, React, Machine Learning, Generative AI, and Cloud) Tj ET
+BT /F1 10 Tf 54 610 Td (Technologies. I enjoy transforming innovative ideas into practical software solutions.) Tj ET
+BT /F2 10.5 Tf 54 588 Td (EXPERIENCE) Tj ET
+0.8 w 54 578 m 558 578 l S
+BT /F2 10 Tf 54 568 Td (QA Analyst \(Contract\) - WPP Production India Private Limited) Tj ET
+BT /F3 9 Tf 54 554 Td (August 2026 - October 2026) Tj ET
+BT /F1 10 Tf 54 540 Td (- Performed manual UI/UX testing of web applications.) Tj ET
+BT /F1 10 Tf 54 526 Td (- Tested layouts, navigation, and user workflows.) Tj ET
+BT /F1 10 Tf 54 512 Td (- Identified and documented defects using JIRA.) Tj ET
+BT /F1 10 Tf 54 498 Td (- Performed regression testing and retested fixes.) Tj ET
+BT /F1 10 Tf 54 484 Td (- Participated in sprint reviews.) Tj ET
+BT /F2 10 Tf 54 466 Td (Software Development & AR/VR Intern - IIT Hyderabad \(PMKVY-NSDC\)) Tj ET
+BT /F3 9 Tf 54 452 Td (March 2026 - May 2026) Tj ET
+BT /F1 10 Tf 54 438 Td (- Developed real-time gesture recognition using OpenCV and MediaPipe.) Tj ET
+BT /F1 10 Tf 54 424 Td (- Trained multi-class PyTorch models.) Tj ET
+BT /F1 10 Tf 54 410 Td (- Developed FastAPI endpoints for ML predictions.) Tj ET
+BT /F1 10 Tf 54 396 Td (- Integrated machine learning inference with Unity3D.) Tj ET
+BT /F1 10 Tf 54 382 Td (- Deployed applications on Meta AR/VR smart glasses.) Tj ET
+BT /F1 10 Tf 54 368 Td (- Performed functional, integration, system, and performance testing.) Tj ET
+BT /F2 10.5 Tf 54 342 Td (PROJECTS) Tj ET
+0.8 w 54 332 m 558 332 l S
+BT /F2 10 Tf 54 322 Td (Mini GPT - AI Chat Application with RAG) Tj ET
+BT /F3 9 Tf 54 308 Td (Technologies: React, Vite, Django REST Framework, PostgreSQL, pgvector, Redis, Celery, Docker) Tj ET
+BT /F3 9 Tf 54 294 Td (Compose) Tj ET
+BT /F1 10 Tf 54 280 Td (Developed a full-stack AI chat application with streaming assistant responses using Server-Sent) Tj ET
+BT /F1 10 Tf 54 266 Td (Events. Features PDF, DOCX, and TXT document processing, text chunking and vector embeddings,) Tj ET
+BT /F1 10 Tf 54 252 Td (semantic similarity search using PostgreSQL pgvector, Redis and Celery background processing, secure) Tj ET
+BT /F1 10 Tf 54 238 Td (authentication and CSRF protection, and Docker Compose deployment.) Tj ET
+BT /F2 10 Tf 54 220 Td (VetLens - AI-Powered Pet Diagnosis Platform) Tj ET
+BT /F3 9 Tf 54 206 Td (Technologies: Django REST Framework, React, MySQL, Celery, Redis, PyTorch, spaCy, JWT) Tj ET
+BT /F1 10 Tf 54 192 Td (Developed an AI-powered pet diagnosis and teleconsultation platform combining computer vision and) Tj ET
+BT /F1 10 Tf 54 178 Td (natural language processing. Features pet image analysis using CNN models, symptom analysis using) Tj ET
+BT /F1 10 Tf 54 164 Td (NLP, combined diagnostic predictions, role-based authentication, veterinarian and pet-owner) Tj ET
+BT /F1 10 Tf 54 150 Td (dashboards, and background task processing.) Tj ET
+BT /F2 10 Tf 54 132 Td (SignAR - AI & AR Sign Language Avatar System) Tj ET
+BT /F3 9 Tf 54 118 Td (Technologies: Python, FastAPI, PyTorch, OpenCV, MediaPipe, Unity3D, Meta Smart Glasses SDK) Tj ET
+BT /F1 10 Tf 54 104 Td (Developed an AI-powered sign language recognition system integrated with an animated 3D avatar.) Tj ET
+BT /F1 10 Tf 54 90 Td (Features real-time hand landmark detection, gesture classification using PyTorch, FastAPI-based) Tj ET
+BT /F1 10 Tf 54 76 Td (prediction services, Unity3D avatar integration, Meta AR/VR smart glasses deployment, and) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1673 >>
+stream
+BT /F1 10 Tf 54 738 Td (performance and latency optimization.) Tj ET
+BT /F2 10.5 Tf 54 712 Td (TECHNICAL SKILLS) Tj ET
+0.8 w 54 702 m 558 702 l S
+BT /F1 10 Tf 54 692 Td (Programming: Python, SQL, JavaScript) Tj ET
+BT /F1 10 Tf 54 678 Td (AI / Machine Learning: Generative AI, RAG, Vector Embeddings, PyTorch, OpenCV, MediaPipe, spaCy) Tj ET
+BT /F1 10 Tf 54 664 Td (Backend: Django, Django REST Framework, FastAPI, REST APIs) Tj ET
+BT /F1 10 Tf 54 650 Td (Frontend: React.js, Vite, Tailwind CSS, HTML, CSS) Tj ET
+BT /F1 10 Tf 54 636 Td (Databases: PostgreSQL, pgvector, MySQL, Redis) Tj ET
+BT /F1 10 Tf 54 622 Td (Cloud & DevOps: AWS, Docker, Docker Compose, Git, GitHub, GitHub Actions, Jenkins, Linux) Tj ET
+BT /F1 10 Tf 54 608 Td (Testing: Manual Testing, Functional Testing, Regression Testing, UI/UX Testing, JIRA) Tj ET
+BT /F2 10.5 Tf 54 586 Td (CERTIFICATIONS) Tj ET
+0.8 w 54 576 m 558 576 l S
+BT /F1 10 Tf 54 566 Td (- AWS Certified Cloud Practitioner - Amazon Web Services) Tj ET
+BT /F1 10 Tf 54 552 Td (- AWS Academy Graduate - Cloud Operations) Tj ET
+BT /F1 10 Tf 54 538 Td (- AWS Academy Graduate - Machine Learning Foundations) Tj ET
+BT /F1 10 Tf 54 524 Td (- PMKVY Internship Certification - Software Development & AR/VR Systems, IIT Hyderabad) Tj ET
+BT /F1 10 Tf 54 510 Td (- Full-Stack Web Development - Udemy) Tj ET
+BT /F1 10 Tf 54 496 Td (- Swecha AI Internship Program) Tj ET
+BT /F2 10.5 Tf 54 474 Td (EDUCATION) Tj ET
+0.8 w 54 464 m 558 464 l S
+BT /F2 10 Tf 54 454 Td (Bachelor of Technology \(B.Tech\), Information Technology) Tj ET
+BT /F1 10 Tf 54 440 Td (BV Raju Institute of Technology \(BVRIT\), Hyderabad  |  2021 - 2025  |  CGPA: 7.1 / 10.0) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000425 00000 n 
+0000004598 00000 n 
+0000004744 00000 n 
+0000006469 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R /Info << /Title (Bhanu Prasad Pitla - Resume) >> >>
+startxref
+6615
+%%EOF
