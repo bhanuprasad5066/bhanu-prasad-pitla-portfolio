@@ -1,86 +1,267 @@
-# Bhanu Prasad Pitla | Portfolio
+# Bhanu Prasad Pitla | Personal Portfolio
 
-A premium, single-page portfolio for Bhanu Prasad Pitla, AI Engineer and Software Engineer. Built with React, Vite, TypeScript, Tailwind CSS, Framer Motion, and Lucide icons. It has no backend and needs no paid services.
+<p align="center">
+  <strong>Software Engineer | Python Developer | AI Engineer</strong>
+</p>
 
-## Features
+<p align="center">
+  A modern, responsive personal portfolio showcasing my technical skills, professional experience, software projects, certifications, and journey in software engineering and artificial intelligence.
+</p>
 
-- Sticky navigation with active-section highlighting and a mobile menu
-- Hero, About, Experience timeline, Projects, Skills, Certifications, Education, and Contact sections
-- Glassmorphism cards, smooth scrolling, and scroll-triggered animations
-- Contact form with frontend validation (opens your email app with the message pre-filled)
-- Downloadable resume and SEO metadata
-- Responsive from mobile to desktop, and respects reduced-motion preferences
+<p align="center">
+  <a href="https://bhanuprasad5066.github.io/bhanu-prasad-pitla-portfolio/">
+    <img src="https://img.shields.io/badge/Live%20Portfolio-Visit%20Website-6366F1?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://github.com/bhanuprasad5066">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-## Getting started
+---
 
-Requirements: [Node.js](https://nodejs.org) 18 or newer.
+## About Me
+
+Hello! I'm **Bhanu Prasad Pitla**, a Software Engineer passionate about building scalable applications, intelligent software solutions, and modern web experiences.
+
+My technical interests include:
+
+- Artificial Intelligence & Machine Learning
+- Python Backend Development
+- Full-Stack Web Development
+- REST API Development
+- Database Management
+- Software Testing & Automation
+
+I enjoy transforming ideas into practical applications by combining modern technologies, problem-solving, and continuous learning.
+
+---
+
+## Portfolio Features
+
+- **Modern UI/UX:** Premium design with glassmorphism effects and elegant typography.
+- **Responsive Layout:** Optimized for desktop, tablet, and mobile devices.
+- **Interactive Navigation:** Sticky navbar with active-section highlighting and mobile menu.
+- **Hero Section:** Professional introduction and career-focused overview.
+- **About Me:** Background, interests, and technical journey.
+- **Experience:** Professional experience presented through a timeline.
+- **Projects:** Showcase of software engineering and AI-based projects.
+- **Technical Skills:** Organized presentation of programming languages, frameworks, and tools.
+- **Certifications:** Professional certifications and achievements.
+- **Education:** Academic background.
+- **Contact Form:** Frontend validation with email application integration.
+- **Resume Download:** Downloadable professional resume.
+- **Animations:** Smooth transitions and scroll-triggered animations.
+- **SEO Friendly:** Search engine metadata and optimized page information.
+- **Accessibility:** Respects reduced-motion preferences.
+
+---
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| TypeScript | Type-safe JavaScript |
+| Vite | Development server and build tool |
+| Tailwind CSS | Responsive styling |
+| Framer Motion | Animations and transitions |
+| Lucide React | Modern icons |
+| CSS3 | Custom styling |
+| Git & GitHub | Version control |
+| GitHub Pages | Website deployment |
+
+---
+
+## Project Structure
+
+```text
+bhanu-prasad-pitla-portfolio/
+│
+├── public/
+│   ├── profile.jpg
+│   └── resume.pdf
+│
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar
+│   │   │   └── Footer
+│   │   │
+│   │   ├── sections/
+│   │   │   ├── Hero
+│   │   │   ├── About
+│   │   │   ├── Experience
+│   │   │   ├── Projects
+│   │   │   ├── Skills
+│   │   │   ├── Certifications
+│   │   │   ├── Education
+│   │   │   └── Contact
+│   │   │
+│   │   └── ui/
+│   │
+│   ├── data/
+│   │   └── portfolio.ts
+│   │
+│   ├── hooks/
+│   ├── pages/
+│   │   └── HomePage.tsx
+│   │
+│   ├── styles/
+│   │   └── globals.css
+│   │
+│   ├── types.ts
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── .github/
+│   └── workflows/
+│       └── pages.yml
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
+
+---
+
+## Getting Started
+
+Follow these steps to run the portfolio locally.
+
+### Prerequisites
+
+- Node.js 18 or newer
+- npm
+- Git
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/bhanuprasad5066/bhanu-prasad-pitla-portfolio.git
+```
+
+**2. Navigate to the project**
+
+```bash
+cd bhanu-prasad-pitla-portfolio
+```
+
+**3. Install dependencies**
 
 ```bash
 npm install
+```
+
+**4. Start the development server**
+
+```bash
 npm run dev
 ```
 
-Open the local address shown in the terminal (usually http://localhost:5173).
+**5. Open your browser**
 
-Other commands:
-
-```bash
-npm run build     # production build in dist/
-npm run preview   # serve the production build locally
-npm run lint      # code quality checks
-npm run typecheck # TypeScript checks
+```text
+http://localhost:5173
 ```
 
-## Customizing the content
+---
 
-Almost all text and links live in one file: `src/data/portfolio.ts`.
+## Available Scripts
 
-- **Profile details, links, and roles:** the `profile` object
-- **Navigation labels:** `navItems`
-- **Experience, projects, skills, certifications, education:** the matching arrays
-- **Profile photo:** place an image in `public/` (for example `public/profile.jpg`) and set `photo: '/profile.jpg'` in `profile`. Until then, a styled "BP" placeholder is shown.
-- **Resume:** replace `public/resume.pdf` with your own PDF, keeping the same file name.
-- **Project links:** each project's `github` field currently points to your GitHub profile. Replace it with the repository URL, and add a `demo` URL where you have a live deployment.
-- **Colors and fonts:** `tailwind.config.js` (color ramps and fonts) and `src/styles/globals.css`.
+| Command | Description |
+|---|---|
+| `npm install` | Install dependencies |
+| `npm run dev` | Start development server |
+| `npm run build` | Create production build |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run lint checks |
+| `npm run typecheck` | Validate TypeScript |
 
-Sections are assembled in `src/pages/HomePage.tsx`, and the layout (navigation and footer) is in `src/components/layout/`.
+---
 
-## Project structure
+## Customization
 
-```
-public/                  Static files (profile photo, resume.pdf)
-src/
-  components/
-    layout/              Navbar, Footer
-    sections/            Hero, About, Experience, Projects, Skills, ...
-    ui/                  Reusable pieces (Button, GlassCard, Reveal, ...)
-  data/portfolio.ts      All website content
-  hooks/                 Scroll-spy hook for the navigation
-  pages/HomePage.tsx     Page composition
-  styles/globals.css     Base styles and utility classes
-  types.ts               Shared content types
-  App.tsx                App shell and background
-  main.tsx               Entry point
+The portfolio content is centrally maintained in:
+
+```text
+src/data/portfolio.ts
 ```
 
-## Contact form
+You can customize:
 
-The contact form validates input in the browser and then opens the visitor's email app with the message pre-filled, addressed to your email. It does not send messages from the website itself. If you later want messages delivered directly to your inbox, connect a form service such as Formspree or a backend of your choice and update `ContactForm.tsx`.
+- Personal information and professional summary.
+- Social media and contact links.
+- Technical skills and technologies.
+- Professional experience.
+- Projects and GitHub repositories.
+- Certifications and education.
+
+Other customization options:
+
+| File | Purpose |
+|---|---|
+| `public/profile.jpg` | Profile photograph |
+| `public/resume.pdf` | Downloadable resume |
+| `tailwind.config.js` | Colors and fonts |
+| `src/styles/globals.css` | Global styling |
+| `src/pages/HomePage.tsx` | Page section composition |
+
+---
 
 ## Deployment
 
 ### GitHub Pages
 
-The workflow in `.github/workflows/pages.yml` builds and deploys the site whenever changes are pushed to `main`. It sets the repository URL base only in the Pages build, so local development remains available at the Vite root URL.
+This project supports automated deployment through GitHub Actions.
 
-After pushing the repository, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source if it is not already selected. The public site will be available at `https://bhanuprasad5066.github.io/bhanu-prasad-pitla-portfolio/`.
+1. Push your changes to the `main` branch.
+2. Open your GitHub repository.
+3. Navigate to **Settings → Pages**.
+4. Select **GitHub Actions** as the deployment source.
+5. GitHub Actions will automatically build and deploy the website.
+
+**Live Website:**
+
+[Bhanu Prasad Pitla – Portfolio](https://bhanuprasad5066.github.io/bhanu-prasad-pitla-portfolio/)
 
 ### Vercel
 
-1. Import the GitHub repository at [vercel.com/new](https://vercel.com/new).
-2. Framework preset: **Vite**. Build command: `npm run build`. Output directory: `dist`.
-3. Click **Deploy**. No environment variables are required.
+You can also deploy through Vercel.
+
+1. Import the GitHub repository into Vercel.
+2. Select Vite as the framework.
+3. Set the build command to `npm run build`.
+4. Set the output directory to `dist`.
+5. Click Deploy.
+
+No environment variables are required.
+
+---
+
+## Contact
+
+I'm open to opportunities in Software Engineering, Python Development, AI Engineering, and Full-Stack Development.
+
+<p align="center">
+  <a href="https://github.com/bhanuprasad5066">
+    <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="mailto:bhanubhanu62818@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+**Email:** bhanubhanu62818@gmail.com
+
+**GitHub:** [bhanuprasad5066](https://github.com/bhanuprasad5066)
+
+---
 
 ## License
 
-Content and design belong to Bhanu Prasad Pitla. All rights reserved.
+This project is created and maintained by **Bhanu Prasad Pitla**.
+
+All rights reserved. Unauthorized reproduction or redistribution of the personal portfolio design and content is prohibited.
